@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+<!-- Bootstrap CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- class
+    1) container
+    2) container fluid
+    3)color: success - green , danger - red , warning - orange, info - light blue , dark - black , light - white , secondary - grey , primary - blue
+    4)margin - m , mt-margin top , mb-margin bottom, ms-margin left , me -margin right  . values - 1-5   mx , my     
+    5)padding - p , pt, pb , ps , pe - 1-5
+    6)font size - fs 1-5  1 - biggest   5 - smallest 
+    7)border -
+    8) button - btn
+    9) width - w - 25 50 75 100 (multiples of 25) 
+    10)mx-auto - horizontally centering 
+    11)display property - d-flex 
+    -->
+    
+
+    <div class="container border border-info rounded border-3 p-5" >   <!-- container class --> <!-- to set border - use 'border' class. 
+        to change the color - border-color . to change size use border-size .-->
+
+        <img class="w-50" src="https://designmodo.com/wp-content/uploads/2021/03/bootstrap-5-layout.jpg" alt="image1"> <!-- image width set into 50 -->
+        <h1 class="text-warning boot">BOOTSTRAP</h1> <!-- text color changed into orange color --> <!-- here we changed the font size by using boot class linked in css -->
+        <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="fs-1">Odio facere</span> quod cumque dolor veritatis harum alias corrupti repellendus, saepe, numquam quisquam quas iusto. Libero veniam illum adipisci unde aperiam ipsa.</p>
+        <button class="btn btn-danger w-100">submit</button><!-- btn - danger - to set red color -->
+    </div>
+
+
+    <div class="container-fluid">   <!-- container fluid class -->
+
+        <img class="w-50" src="https://designmodo.com/wp-content/uploads/2021/03/bootstrap-5-layout.jpg" alt="image2">
+        <h1 class="text-success">BOOTSTRAP</h1>
+        <p class="ms-4 mb-3 mt-2 me-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio facere quod cumque dolor veritatis harum alias corrupti repellendus, saepe, numquam quisquam quas iusto. Libero veniam illum adipisci unde aperiam ipsa.</p>
+        <button >submit</button>
+    </div>
+
+</body>
+</html>

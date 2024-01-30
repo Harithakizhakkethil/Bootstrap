@@ -1,0 +1,66 @@
+Bootstrap
+---------
+- framework of css 
+- it has some predefined classes.
+
+classes:-
+    1) container
+    2) container fluid
+    3)colors: success - green  
+             danger - red  
+             warning - orange 
+             info - light blue  
+             dark - black  
+             light - white  
+             secondary - grey  
+             primary - blue
+    4)margin - m  
+               mt-margin top  
+               mb-margin bottom 
+               ms-margin left  
+               me -margin right
+               mx- margin in x axis - margin left, margin right
+               my - margin in y axis - margin top , margin bottom 
+    5)padding - p
+                pt -padding top
+                pb - padding bottom
+                ps - padding left
+                pe - padding right 
+                px -padding in x axis
+                py - padding in y axis
+    6)font size - fs 1-5  1 - biggest   5 - smallest 
+    7)border - to set border - use 'border' class. 
+               to change the color - border-color .(eg;border-info) 
+               to change size use border-size (border-5)
+    8) button - btn
+    9) width - w - 25 50 75 100 (multiples of 25) 
+    10)mx-auto - horizontally centering fixed-width block level content
+    11)display property - d-flex 
+
+    ---> linked bootstrap javascript  - to get the behaviour
+    ---> javascripts are placed inside - script tag
+    ---> this script tag is placed inside the html head
+
+
+
+
+     Bootstrap grid system 
+    -----------------------
+    - used to create responsive web pages
+    -total screen or container will be divided into 12 columns 
+
+
+* classes used to make esponsive web pages
+  - extra small (xs) - <576px	
+  - Small (sm) - ≥576px	
+  - medium (md) - ≥768px	
+  - large (lg) - ≥992px	
+  - Extra large (xl) - ≥1200px	
+  - Extra extra large (xxl) - ≥1400px
+
+
+
+----- pgm 10 - requirements-------
+  lg to above -  row-4
+  md to large - row -2
+  sm to md - row-1

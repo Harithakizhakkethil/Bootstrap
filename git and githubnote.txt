@@ -1,0 +1,38 @@
+GIT AND GITHUB
+--------------
+
+GIT - it's a tool to do operations in Github.
+
+GITHUB - it is the website which holds the data - cloud based 
+
+ features
+ --------
+ * data can be stored
+ * website can be hosted
+ 
+
+ --> repository - storage space
+ --> remote repository (github storage space)
+ --> local repository (git storage space)
+ --> local storage (system storage)
+
+ 
+git operations
+--------------
+1)push - uploading data  --- local repository to remote repository
+2)clone - downloading the entire code ---- remote repo to local repo 
+3)pull - downloading only the updated code ---- remote repo to local repo 
+
+git commands
+------------
+1) git init - to initialize an empty local repository
+2) git status - to check file status in a particular folder
+3) git add filename - to add a particular file in a folder
+ git add . - to add all files in a folder
+4) git commit - "msg" - add and save the files into the local repository
+5) git remote add origin https:\\........ - to connect the local repo with the remote repo
+6) git remote -v - to get the remote repo in which we have connected
+7) git push origin master
+
+
+
